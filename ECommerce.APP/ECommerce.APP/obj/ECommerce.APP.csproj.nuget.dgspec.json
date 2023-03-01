@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.APP\\ECommerce.APP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.APP\\ECommerce.APP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.APP\\ECommerce.APP.csproj",
+        "projectName": "ECommerce.APP",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.APP\\ECommerce.APP.csproj",
+        "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.APP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj"
+              },
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj"
+              },
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
+        "projectName": "ECommerce.Database",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
+        "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+        "projectName": "ECommerce.Models",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
+        "projectName": "ECommerce.Repository",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
+        "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\bin\Debug\netstandard2.1\ECommerce.Models.deps.json
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\bin\Debug\netstandard2.1\ECommerce.Models.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\bin\Debug\netstandard2.1\ECommerce.Models.pdb
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.csproj.AssemblyReference.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.AssemblyInfoInputs.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.AssemblyInfo.cs
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.csproj.CoreCompileInputs.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Models\obj\Debug\netstandard2.1\ECommerce.Models.pdb

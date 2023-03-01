@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HsaYNClZaQEu6RklW5h4R76w5uCvQhTNbH8fzAv9Pxppdx8OMuAoD8T6kUsmntEnrStUdvdJJKFaUCAAVr9N0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

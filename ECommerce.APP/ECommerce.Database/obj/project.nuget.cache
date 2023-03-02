@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hC0AGw0C2DcOi/ma9hPVseID5Ot8HV2KZsk9pJFTl1oEuIhy9QkM2T4Ei7i2wJ8oJvX9halvi0vwOwb8M5vBFA==",
+  "dgSpecHash": "OiKXmpQClwD2fXACJ/D16mwcBu4xVBD3tKJ6lMPrNhap+cVrBY2LrwLxdxfl+9vBEy0/+t6MjvLNRHDE59nn7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
+  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

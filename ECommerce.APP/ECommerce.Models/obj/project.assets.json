@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
       "projectName": "ECommerce.Models",
-      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
       "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\obj\\",
+      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gB+xAAZrvxjsWIeoVqbiMbRmHmEtzY0H49x8XfS4s8DfeYVhpwWxVicp09Y+ipNt99NETb6oTPBFfwNiwIDBRA==",
+  "dgSpecHash": "/MQdKpSuyMK0blcOSx7NUckCZyi3mF0ifUwEZrGe9a7X2jp5UR7GxLsJfd6iXs8vDgnwjyoV5IWOe8Qx+Q3Xug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

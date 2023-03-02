@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {}
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
         "projectName": "ECommerce.Database",
-        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj",
         "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\obj\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
-                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj"
+              "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
+                "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
+    "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
         "projectName": "ECommerce.Models",
-        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
+        "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\ECommerce.Models.csproj",
         "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Models\\obj\\",
+        "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",

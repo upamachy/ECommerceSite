@@ -7196,11 +7196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
       "projectName": "ECommerce.Repository",
-      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
+      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Repository\\ECommerce.Repository.csproj",
       "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7217,8 +7217,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
-              "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj"
+            "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj": {
+              "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\ECommerceSite\\ECommerce.APP\\ECommerce.Database\\ECommerce.Database.csproj"
             }
           }
         }

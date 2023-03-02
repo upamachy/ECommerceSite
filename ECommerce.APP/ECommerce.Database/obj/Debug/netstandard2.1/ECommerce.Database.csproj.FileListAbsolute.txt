@@ -11,3 +11,16 @@ C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Database\bin\Debug
 C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.csproj.CopyComplete
 C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.dll
 C:\Users\Upama Chowdhury\source\repos\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.pdb
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\bin\Debug\netstandard2.1\ECommerce.Database.deps.json
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\bin\Debug\netstandard2.1\ECommerce.Database.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\bin\Debug\netstandard2.1\ECommerce.Database.pdb
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\bin\Debug\netstandard2.1\ECommerce.Models.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\bin\Debug\netstandard2.1\ECommerce.Models.pdb
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.csproj.AssemblyReference.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.AssemblyInfoInputs.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.AssemblyInfo.cs
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.csproj.CoreCompileInputs.cache
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.csproj.CopyComplete
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.Database\obj\Debug\netstandard2.1\ECommerce.Database.pdb

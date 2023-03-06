@@ -234,3 +234,4 @@ C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\ECommerce.APP.genruntimeconfig.cache
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Category\_ViewStart.cshtml.g.cs
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Category\List.cshtml.g.cs

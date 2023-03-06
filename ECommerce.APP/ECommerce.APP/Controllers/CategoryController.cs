@@ -11,6 +11,11 @@ namespace ECommerce.APP.Controllers
 {
     public class CategoryController : Controller
     {
+        CategoryRepository _categoryRepository;
+        public CategoryController()
+        {
+            _categoryRepository = new CategoryRepository();
+        }
         public string Index()
         {
             return "This is the default method";
@@ -24,7 +29,7 @@ namespace ECommerce.APP.Controllers
         [HttpPost]
         public IActionResult Create(CategoryCreate model)
         {
-            CategoryRepository categoryRepository = new CategoryRepository();
+            
             if (model.Name!=null)
             {
                 var category = new Catagory()
@@ -33,7 +38,7 @@ namespace ECommerce.APP.Controllers
                     Code=model.Code
                 };
 
-                var isAdded=categoryRepository.Add(category);
+                var isAdded=_categoryRepository.Add(category);
 
                 if (isAdded)
                 {
@@ -44,6 +49,17 @@ namespace ECommerce.APP.Controllers
             return View();
         }
 
+        public IActionResult List()
+        {
+            var categoryList=_categoryRepository.GetAll();
+
+            //loosely tied approach
+            //ViewBag.CategoryList = categoryList;
+
+            ViewData["CategoryList"] = categoryList;
+
+            return View();
+        }
         public string CategoryListCreated(CategoryCreate[] categories)
         {
             string data = "Category list created" + Environment.NewLine;

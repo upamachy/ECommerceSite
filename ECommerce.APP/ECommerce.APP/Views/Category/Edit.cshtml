@@ -1,4 +1,6 @@
 ﻿
+@model ECommerce.APP.Models.CategoryModel.CategoryEditVM
+
 <div class="card card-primary">
     <div class="card-header">
         <h3>Category Create</h3>
@@ -7,14 +9,14 @@
         <div class="card-body">
             <div class="form-group">
                 <label for="name">Category Name</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+                <input asp-for="Name"  class="form-control" placeholder="Enter name">
+                <input type="hidden" asp-for="Id" />
             </div>
             <div class="form-group">
                 <label for="code">Code</label>
-                <input type="text" class="form-control" id="code" name="code" placeholder="Enter the category code">
+                <input asp-for="Code" class="form-control" placeholder="Enter the category code">
             </div>
         </div>
-        <!-- /.card-body -->
 
         <div class="card-footer">
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -22,14 +24,3 @@
     </form>
 
 </div>
-
-@section scripts{
-
-    @*<script>
-        
-            var myValue = $("#name").text();
-            console.log(myValue); // Output: the value of Model.MyProperty
-        
-    </script>*@
-
- }

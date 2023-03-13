@@ -1,12 +1,39 @@
-﻿@using ECommerce.Models.EntityModels
+﻿@*weekly typed approach*@
+<!--@using ECommerce.Models.EntityModels
 
+@{
+    //List<Catagory> categoryList = ViewData["CategoryList"] as List<Catagory>;
+    //int serialNum=0;
+}-->
+
+@*Strongly typed approach*@
+<!--@using ECommerce.Models.EntityModels
 @{ 
-    List<Catagory> categoryList = ViewData["CategoryList"] as List<Catagory>;
-    int serialNum=0;
-}
+    int serialNum = 0;
+}-->
+
+@*After adding CategoryListVM*@
+@model ECommerce.APP.Models.CategoryModel.CategoryListVM
+
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">
+                @Model.Title
+            </h3>
+        </div>
+        <div class="card-body">
+            @Model.Description
+        </div>
+        
+    </div>
+
+
 <div class="card">
     <div class="card-header">
         <h3 class="card-title">Category List</h3>
+        <div class="card-tools">
+            <a asp-action="Create" class="btn btn-primary">Create</a>
+        </div>
     </div>
     <!-- /.card-header -->
     <div class="card-body">
@@ -20,7 +47,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var category in categoryList)
+                @foreach (var category in Model.CategoryList)
                 {
                     <tr>
                         <td>@(++serialNum)</td>
@@ -28,7 +55,11 @@
                         <td>
                             @category.Code
                         </td>
-                        <td><span class="badge bg-danger">55%</span></td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@category.Id" class="badge bg-warning">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@category.Id" class="badge bg-danger">Delete</a>
+
+                        </td>
                     </tr>
 
                 }

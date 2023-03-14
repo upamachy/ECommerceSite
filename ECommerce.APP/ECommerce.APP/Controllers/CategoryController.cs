@@ -1,6 +1,7 @@
 ﻿using ECommerce.APP.Models.CategoryModel;
 using ECommerce.Models.EntityModels;
 using ECommerce.Repository;
+using ECommerce.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,10 +12,10 @@ namespace ECommerce.APP.Controllers
 {
     public class CategoryController : Controller
     {
-        CategoryRepository _categoryRepository;
+        CategoryService _categoryService;
         public CategoryController()
         {
-            _categoryRepository = new CategoryRepository();
+            _categoryService = new CategoryService();
         }
         public string Index()
         {
@@ -38,7 +39,7 @@ namespace ECommerce.APP.Controllers
                     Code=model.Code
                 };
 
-                var isAdded=_categoryRepository.Add(category);
+                var isAdded=_categoryService.Add(category);
 
                 if (isAdded)
                 {
@@ -51,7 +52,7 @@ namespace ECommerce.APP.Controllers
 
         public IActionResult List()
         {
-            var categoryList=_categoryRepository.GetAll();
+            var categoryList=_categoryService.GetAll();
 
             //loosely tied approach
             //ViewBag.CategoryList = categoryList;
@@ -75,7 +76,7 @@ namespace ECommerce.APP.Controllers
             {
                 return RedirectToAction("List");
             }
-            var category = _categoryRepository.GetById((int)id);
+            var category = _categoryService.GetById((int)id);
             if (category == null)
             {
                 return RedirectToAction("List");
@@ -101,7 +102,7 @@ namespace ECommerce.APP.Controllers
                     Code = categoryEditVM.Code
                 };
 
-                bool isUpdated = _categoryRepository.Update(category);
+                bool isUpdated = _categoryService.Update(category);
                 if (isUpdated)
                 {
                     return RedirectToAction("List");
@@ -116,13 +117,13 @@ namespace ECommerce.APP.Controllers
             {
                 return RedirectToAction("List");
             }
-            var category = _categoryRepository.GetById((int)id);
+            var category = _categoryService.GetById((int)id);
             if (category == null)
             {
                 return RedirectToAction("List");
             }
 
-            bool isRemoved= _categoryRepository.Remove(category);
+            bool isRemoved= _categoryService.Remove(category);
 
             if (isRemoved)
             {

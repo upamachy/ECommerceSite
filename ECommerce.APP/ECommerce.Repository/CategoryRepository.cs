@@ -1,12 +1,13 @@
 ﻿using ECommerce.Database.DbContexts;
 using ECommerce.Models.EntityModels;
+using ECommerce.Repository.Abstraction;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ECommerce.Repository
 {
-    public class CategoryRepository
+    public class CategoryRepository:ICategoryRepository
     {
         SMEDBContext db;
 

@@ -2,6 +2,7 @@
 using ECommerce.Models.EntityModels;
 using ECommerce.Repository;
 using ECommerce.Services;
+using ECommerce.Services.Abstraction;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,10 @@ namespace ECommerce.APP.Controllers
 {
     public class CategoryController : Controller
     {
-        CategoryService _categoryService;
-        public CategoryController()
+        ICategoryService _categoryService;
+        public CategoryController(ICategoryService categoryService)
         {
-            _categoryService = new CategoryService();
+            _categoryService = categoryService;
         }
         public string Index()
         {

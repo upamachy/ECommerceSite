@@ -13,14 +13,19 @@ namespace ECommerce.Database.DbContexts
                                                   // EFCore will automatically create a table named product/item.
                                                   // Using the relationship between Item and Category class
 
+        public SMEDBContext(DbContextOptions options):base(options)
+        {
+
+        }
+
         // it's a predefined method of DbContext class and here we just override it
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //for connecting the Database server
-            string connectionString = @"Server=DELL\SQLEXPRESS;Database=UCECommerceDB;Integrated Security=true";
-            optionsBuilder
-                //.UseLazyLoadingProxies()
-                .UseSqlServer(connectionString);
+            ////for connecting the Database server
+            //string connectionString = @"Server=DELL\SQLEXPRESS;Database=UCECommerceDB;Integrated Security=true";
+            //optionsBuilder
+            //    //.UseLazyLoadingProxies()
+            //    .UseSqlServer(connectionString);
         }
     }
 }

@@ -36,6 +36,7 @@
           "ECommerce.Database": "1.0.0",
           "ECommerce.Models": "1.0.0",
           "ECommerce.Repository": "1.0.0",
+          "ECommerce.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1830,6 +1831,17 @@
         },
         "compile": {
           "ECommerce.Repository.dll": {}
+        }
+      },
+      "ECommerce.Services/1.0.0": {
+        "dependencies": {
+          "ECommerce.Repository": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce.Services.dll": {}
+        },
+        "compile": {
+          "ECommerce.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4398,6 +4410,11 @@
       "sha512": ""
     },
     "ECommerce.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,12 @@
+using ECommerce.Database.DbContexts;
+using ECommerce.Repository;
+using ECommerce.Repository.Abstraction;
+using ECommerce.Services;
+using ECommerce.Services.Abstraction;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +30,9 @@ namespace ECommerce.APP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<SMEDBContext>(c => c.UseSqlServer(@"Server=DELL\SQLEXPRESS;Database=UCECommerceDB;Integrated Security=true"));
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<ICategoryService, CategoryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

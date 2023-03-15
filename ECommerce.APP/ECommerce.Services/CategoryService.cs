@@ -11,9 +11,9 @@ namespace ECommerce.Services
     public class CategoryService:ICategoryService
     {
         ICategoryRepository _categoryRepository;
-        public CategoryService()
+        public CategoryService(ICategoryRepository categoryRepository)
         {
-            _categoryRepository = new CategoryRepository();
+            _categoryRepository = categoryRepository;
         }
 
         public bool Add(Catagory catagory)

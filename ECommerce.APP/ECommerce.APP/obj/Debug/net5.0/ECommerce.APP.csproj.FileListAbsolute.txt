@@ -236,3 +236,5 @@ C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Category\_ViewStart.cshtml.g.cs
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Category\List.cshtml.g.cs
 C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\bin\Debug\net5.0\ECommerce.Services.dll
+C:\Users\Upama Chowdhury\source\repos\ECommerceSite\ECommerce.APP\ECommerce.APP\bin\Debug\net5.0\ECommerce.Services.pdb

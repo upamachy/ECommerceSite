@@ -32,6 +32,7 @@ namespace ECommerce.APP
             services.AddControllersWithViews();
             services.AddDbContext<SMEDBContext>(c => c.UseSqlServer(@"Server=DELL\SQLEXPRESS;Database=UCECommerceDB;Integrated Security=true"));
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<ICategoryRepository, PremiumCategoryRepository>();
             services.AddTransient<ICategoryService, CategoryService>();
         }
 
